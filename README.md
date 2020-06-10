@@ -4,4 +4,4 @@
 
 #balanced_GraphConv*.ipynb contain Graph Convolutional Network classifiers and regressors on the CoMPARA set of androgen receptor toxicity compounds
 
-#balanced_GraphConv*myscores*.ipynb contain Graph Convolutional Network classifiers and regressors on the CoMPARA set of androgen receptor toxicity compounds, as well as scoring extra set of molecules
+#balanced_GraphConv*scores.ipynb contain Graph Convolutional Network classifiers and regressors on the CoMPARA set of androgen receptor toxicity compounds, as well as scoring extra set of molecules
