@@ -12,7 +12,7 @@ Then
 
 python
 
-and run my_py_script.py
+and run my_py_scriptMoreMetrics.py
 
 
 
