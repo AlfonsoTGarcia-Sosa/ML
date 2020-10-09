@@ -1,6 +1,6 @@
 # ML
 
-my_py_script.py contains Random Forest and Deep Neural Network classifiers and regressors on the CoMPARA set of androgen receptor toxicity compounds using my own features. It runs using environment file deepch.yml. First create a conda environment with:
+my_py_scriptMoreMetrics.py contains Random Forest and Deep Neural Network classifiers and regressors on the CoMPARA set of androgen receptor toxicity compounds using my own features. It runs using environment file deepch.yml. First create a conda environment with:
 
 conda env create -f deepch.yml
 
