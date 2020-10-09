@@ -13,6 +13,8 @@ Then
 python
 
 and run my_py_scriptMoreMetrics.py
+such as:
+python my_py_scriptMoreMetrics.py > out.txt
 
 
 
