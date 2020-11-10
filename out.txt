@@ -1,0 +1,1805 @@
+tf.__version__: 1.14.0
+dc.__version__: 2.3.0
+<module 'pandas' from '/home/al/tart/programs/Anaconda/envs/deepch/lib/python3.7/site-packages/pandas/__init__.py'>
+['s_sd_Canonical\\_QSARr', 's_m_title', 'HumDockScore', 'RatDockScore', 'ChimpDockScore', 'AVG', 'bindingClass', 'P_Act_dockChimp', 'P_Inact', 'PredBayes', 'ratio', 'cas', 'casrn', 'cid', 'gsid', 'dsstox_substance_id', 'preferred_name', 'SMILES', 'InChI_Code_QSARr', 'InChI Key_QSARr', 'BindingClass', 'avgD_Act', 'avgD_Inact', 'PredBindingClass', 'predMLogR', 'Mol']
+Loading raw samples now.
+shard_size: 8192
+About to start loading CSV from balanced_droppedcols1.csv
+Loading shard 1 of size 8192.
+TIMING: user specified processing took 0.006 s
+TIMING: featurizing shard 0 took 0.009 s
+TIMING: dataset construction took 0.017 s
+Loading dataset from disk.
+Loading raw samples now.
+shard_size: 8192
+About to start loading CSV from Eval_4.csv
+Loading shard 1 of size 8192.
+TIMING: user specified processing took 0.005 s
+TIMING: featurizing shard 0 took 0.021 s
+TIMING: dataset construction took 0.042 s
+Loading dataset from disk.
+Loading raw samples now.
+shard_size: 8192
+About to start loading CSV from tmp_df.csv
+Loading shard 1 of size 8192.
+TIMING: user specified processing took 0.005 s
+TIMING: featurizing shard 0 took 0.012 s
+TIMING: dataset construction took 0.101 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.005 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.015 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+Fitting model 1/128
+hyperparameters: {'n_estimators': 10, 'max_features': 'auto'}
+computed_metrics: [0.7219840253595968]
+Model 1/128, Metric roc_auc_score, Validation set 0: 0.721984
+	best_validation_score so far: 0.721984
+Fitting model 2/128
+hyperparameters: {'n_estimators': 10, 'max_features': 'sqrt'}
+computed_metrics: [0.6138832075718276]
+Model 2/128, Metric roc_auc_score, Validation set 1: 0.613883
+	best_validation_score so far: 0.721984
+Fitting model 3/128
+hyperparameters: {'n_estimators': 10, 'max_features': 'log2'}
+computed_metrics: [0.7306151208655944]
+Model 3/128, Metric roc_auc_score, Validation set 2: 0.730615
+	best_validation_score so far: 0.730615
+Fitting model 4/128
+hyperparameters: {'n_estimators': 10, 'max_features': None}
+computed_metrics: [0.5157280744616268]
+Model 4/128, Metric roc_auc_score, Validation set 3: 0.515728
+	best_validation_score so far: 0.730615
+Fitting model 5/128
+hyperparameters: {'n_estimators': 50, 'max_features': 'auto'}
+computed_metrics: [0.6687254600901158]
+Model 5/128, Metric roc_auc_score, Validation set 4: 0.668725
+	best_validation_score so far: 0.730615
+Fitting model 6/128
+hyperparameters: {'n_estimators': 50, 'max_features': 'sqrt'}
+computed_metrics: [0.7000811800658839]
+Model 6/128, Metric roc_auc_score, Validation set 5: 0.700081
+	best_validation_score so far: 0.730615
+Fitting model 7/128
+hyperparameters: {'n_estimators': 50, 'max_features': 'log2'}
+computed_metrics: [0.7326426911867805]
+Model 7/128, Metric roc_auc_score, Validation set 6: 0.732643
+	best_validation_score so far: 0.732643
+Fitting model 8/128
+hyperparameters: {'n_estimators': 50, 'max_features': None}
+computed_metrics: [0.5763771802255402]
+Model 8/128, Metric roc_auc_score, Validation set 7: 0.576377
+	best_validation_score so far: 0.732643
+Fitting model 9/128
+hyperparameters: {'n_estimators': 100, 'max_features': 'auto'}
+computed_metrics: [0.734864359762241]
+Model 9/128, Metric roc_auc_score, Validation set 8: 0.734864
+	best_validation_score so far: 0.734864
+Fitting model 10/128
+hyperparameters: {'n_estimators': 100, 'max_features': 'sqrt'}
+computed_metrics: [0.6871824980670647]
+Model 10/128, Metric roc_auc_score, Validation set 9: 0.687182
+	best_validation_score so far: 0.734864
+Fitting model 11/128
+hyperparameters: {'n_estimators': 100, 'max_features': 'log2'}
+computed_metrics: [0.6897656464759419]
+Model 11/128, Metric roc_auc_score, Validation set 10: 0.689766
+	best_validation_score so far: 0.734864
+Fitting model 12/128
+hyperparameters: {'n_estimators': 100, 'max_features': None}
+computed_metrics: [0.5646298903586279]
+Model 12/128, Metric roc_auc_score, Validation set 11: 0.564630
+	best_validation_score so far: 0.734864
+Fitting model 13/128
+hyperparameters: {'n_estimators': 250, 'max_features': 'auto'}
+computed_metrics: [0.6893513770675648]
+Model 13/128, Metric roc_auc_score, Validation set 12: 0.689351
+	best_validation_score so far: 0.734864
+Fitting model 14/128
+hyperparameters: {'n_estimators': 250, 'max_features': 'sqrt'}
+computed_metrics: [0.6875517032041341]
+Model 14/128, Metric roc_auc_score, Validation set 13: 0.687552
+	best_validation_score so far: 0.734864
+Fitting model 15/128
+hyperparameters: {'n_estimators': 250, 'max_features': 'log2'}
+computed_metrics: [0.6971339767223725]
+Model 15/128, Metric roc_auc_score, Validation set 14: 0.697134
+	best_validation_score so far: 0.734864
+Fitting model 16/128
+hyperparameters: {'n_estimators': 250, 'max_features': None}
+computed_metrics: [0.5617319358259025]
+Model 16/128, Metric roc_auc_score, Validation set 15: 0.561732
+	best_validation_score so far: 0.734864
+Fitting model 17/128
+hyperparameters: {'n_estimators': 500, 'max_features': 'auto'}
+computed_metrics: [0.6868828206628697]
+Model 17/128, Metric roc_auc_score, Validation set 16: 0.686883
+	best_validation_score so far: 0.734864
+Fitting model 18/128
+hyperparameters: {'n_estimators': 500, 'max_features': 'sqrt'}
+computed_metrics: [0.697087303012804]
+Model 18/128, Metric roc_auc_score, Validation set 17: 0.697087
+	best_validation_score so far: 0.734864
+Fitting model 19/128
+hyperparameters: {'n_estimators': 500, 'max_features': 'log2'}
+computed_metrics: [0.6939495421791921]
+Model 19/128, Metric roc_auc_score, Validation set 18: 0.693950
+	best_validation_score so far: 0.734864
+Fitting model 20/128
+hyperparameters: {'n_estimators': 500, 'max_features': None}
+computed_metrics: [0.5636191631307308]
+Model 20/128, Metric roc_auc_score, Validation set 19: 0.563619
+	best_validation_score so far: 0.734864
+Fitting model 21/128
+hyperparameters: {'n_estimators': 5000, 'max_features': 'auto'}
+computed_metrics: [0.6923887089536913]
+Model 21/128, Metric roc_auc_score, Validation set 20: 0.692389
+	best_validation_score so far: 0.734864
+Fitting model 22/128
+hyperparameters: {'n_estimators': 5000, 'max_features': 'sqrt'}
+computed_metrics: [0.6927414978204987]
+Model 22/128, Metric roc_auc_score, Validation set 21: 0.692741
+	best_validation_score so far: 0.734864
+Fitting model 23/128
+hyperparameters: {'n_estimators': 5000, 'max_features': 'log2'}
+computed_metrics: [0.6927585578660651]
+Model 23/128, Metric roc_auc_score, Validation set 22: 0.692759
+	best_validation_score so far: 0.734864
+Fitting model 24/128
+hyperparameters: {'n_estimators': 5000, 'max_features': None}
+computed_metrics: [0.5654040301621606]
+Model 24/128, Metric roc_auc_score, Validation set 23: 0.565404
+	best_validation_score so far: 0.734864
+Fitting model 25/128
+hyperparameters: {'n_estimators': 10000, 'max_features': 'auto'}
+computed_metrics: [0.6888295971833542]
+Model 25/128, Metric roc_auc_score, Validation set 24: 0.688830
+	best_validation_score so far: 0.734864
+Fitting model 26/128
+hyperparameters: {'n_estimators': 10000, 'max_features': 'sqrt'}
+computed_metrics: [0.6898396806359469]
+Model 26/128, Metric roc_auc_score, Validation set 25: 0.689840
+	best_validation_score so far: 0.734864
+Fitting model 27/128
+hyperparameters: {'n_estimators': 10000, 'max_features': 'log2'}
+computed_metrics: [0.6903286279796336]
+Model 27/128, Metric roc_auc_score, Validation set 26: 0.690329
+	best_validation_score so far: 0.734864
+Fitting model 28/128
+hyperparameters: {'n_estimators': 10000, 'max_features': None}
+computed_metrics: [0.5641081104744173]
+Model 28/128, Metric roc_auc_score, Validation set 27: 0.564108
+	best_validation_score so far: 0.734864
+Fitting model 29/128
+hyperparameters: {'n_estimators': 2, 'max_features': 'auto'}
+computed_metrics: [0.6289778071339316]
+Model 29/128, Metric roc_auc_score, Validation set 28: 0.628978
+	best_validation_score so far: 0.734864
+Fitting model 30/128
+hyperparameters: {'n_estimators': 2, 'max_features': 'sqrt'}
+computed_metrics: [0.41105278506853304]
+Model 30/128, Metric roc_auc_score, Validation set 29: 0.411053
+	best_validation_score so far: 0.734864
+Fitting model 31/128
+hyperparameters: {'n_estimators': 2, 'max_features': 'log2'}
+computed_metrics: [0.6246992764609354]
+Model 31/128, Metric roc_auc_score, Validation set 30: 0.624699
+	best_validation_score so far: 0.734864
+Fitting model 32/128
+hyperparameters: {'n_estimators': 2, 'max_features': None}
+computed_metrics: [0.536353991439076]
+Model 32/128, Metric roc_auc_score, Validation set 31: 0.536354
+	best_validation_score so far: 0.734864
+Fitting model 33/128
+hyperparameters: {'n_estimators': 3, 'max_features': 'auto'}
+computed_metrics: [0.6110998450432843]
+Model 33/128, Metric roc_auc_score, Validation set 32: 0.611100
+	best_validation_score so far: 0.734864
+Fitting model 34/128
+hyperparameters: {'n_estimators': 3, 'max_features': 'sqrt'}
+computed_metrics: [0.6764308067083962]
+Model 34/128, Metric roc_auc_score, Validation set 33: 0.676431
+	best_validation_score so far: 0.734864
+Fitting model 35/128
+hyperparameters: {'n_estimators': 3, 'max_features': 'log2'}
+computed_metrics: [0.5570645648690529]
+Model 35/128, Metric roc_auc_score, Validation set 34: 0.557065
+	best_validation_score so far: 0.734864
+Fitting model 36/128
+hyperparameters: {'n_estimators': 3, 'max_features': None}
+computed_metrics: [0.5716187150631189]
+Model 36/128, Metric roc_auc_score, Validation set 35: 0.571619
+	best_validation_score so far: 0.734864
+Fitting model 37/128
+hyperparameters: {'n_estimators': 4, 'max_features': 'auto'}
+computed_metrics: [0.5458416299875687]
+Model 37/128, Metric roc_auc_score, Validation set 36: 0.545842
+	best_validation_score so far: 0.734864
+Fitting model 38/128
+hyperparameters: {'n_estimators': 4, 'max_features': 'sqrt'}
+computed_metrics: [0.4829946753344574]
+Model 38/128, Metric roc_auc_score, Validation set 37: 0.482995
+	best_validation_score so far: 0.734864
+Fitting model 39/128
+hyperparameters: {'n_estimators': 4, 'max_features': 'log2'}
+computed_metrics: [0.6710523859278443]
+Model 39/128, Metric roc_auc_score, Validation set 38: 0.671052
+	best_validation_score so far: 0.734864
+Fitting model 40/128
+hyperparameters: {'n_estimators': 4, 'max_features': None}
+computed_metrics: [0.47497194749111105]
+Model 40/128, Metric roc_auc_score, Validation set 39: 0.474972
+	best_validation_score so far: 0.734864
+Fitting model 41/128
+hyperparameters: {'n_estimators': 5, 'max_features': 'auto'}
+computed_metrics: [0.6332939986622348]
+Model 41/128, Metric roc_auc_score, Validation set 40: 0.633294
+	best_validation_score so far: 0.734864
+Fitting model 42/128
+hyperparameters: {'n_estimators': 5, 'max_features': 'sqrt'}
+computed_metrics: [0.5890434593394736]
+Model 42/128, Metric roc_auc_score, Validation set 41: 0.589043
+	best_validation_score so far: 0.734864
+Fitting model 43/128
+hyperparameters: {'n_estimators': 5, 'max_features': 'log2'}
+computed_metrics: [0.5694675398834895]
+Model 43/128, Metric roc_auc_score, Validation set 42: 0.569468
+	best_validation_score so far: 0.734864
+Fitting model 44/128
+hyperparameters: {'n_estimators': 5, 'max_features': None}
+computed_metrics: [0.4694322609968088]
+Model 44/128, Metric roc_auc_score, Validation set 43: 0.469432
+	best_validation_score so far: 0.734864
+Fitting model 45/128
+hyperparameters: {'n_estimators': 6, 'max_features': 'auto'}
+computed_metrics: [0.5439370207495219]
+Model 45/128, Metric roc_auc_score, Validation set 44: 0.543937
+	best_validation_score so far: 0.734864
+Fitting model 46/128
+hyperparameters: {'n_estimators': 6, 'max_features': 'sqrt'}
+computed_metrics: [0.6397037474804244]
+Model 46/128, Metric roc_auc_score, Validation set 45: 0.639704
+	best_validation_score so far: 0.734864
+Fitting model 47/128
+hyperparameters: {'n_estimators': 6, 'max_features': 'log2'}
+computed_metrics: [0.7101318001180684]
+Model 47/128, Metric roc_auc_score, Validation set 46: 0.710132
+	best_validation_score so far: 0.734864
+Fitting model 48/128
+hyperparameters: {'n_estimators': 6, 'max_features': None}
+computed_metrics: [0.596262111827633]
+Model 48/128, Metric roc_auc_score, Validation set 47: 0.596262
+	best_validation_score so far: 0.734864
+Fitting model 49/128
+hyperparameters: {'n_estimators': 7, 'max_features': 'auto'}
+computed_metrics: [0.702880315089385]
+Model 49/128, Metric roc_auc_score, Validation set 48: 0.702880
+	best_validation_score so far: 0.734864
+Fitting model 50/128
+hyperparameters: {'n_estimators': 7, 'max_features': 'sqrt'}
+computed_metrics: [0.6558512415528633]
+Model 50/128, Metric roc_auc_score, Validation set 49: 0.655851
+	best_validation_score so far: 0.734864
+Fitting model 51/128
+hyperparameters: {'n_estimators': 7, 'max_features': 'log2'}
+computed_metrics: [0.661743716913973]
+Model 51/128, Metric roc_auc_score, Validation set 50: 0.661744
+	best_validation_score so far: 0.734864
+Fitting model 52/128
+hyperparameters: {'n_estimators': 7, 'max_features': None}
+computed_metrics: [0.5959669408505688]
+Model 52/128, Metric roc_auc_score, Validation set 51: 0.595967
+	best_validation_score so far: 0.734864
+Fitting model 53/128
+hyperparameters: {'n_estimators': 8, 'max_features': 'auto'}
+computed_metrics: [0.6844432341468722]
+Model 53/128, Metric roc_auc_score, Validation set 52: 0.684443
+	best_validation_score so far: 0.734864
+Fitting model 54/128
+hyperparameters: {'n_estimators': 8, 'max_features': 'sqrt'}
+computed_metrics: [0.6559677648829583]
+Model 54/128, Metric roc_auc_score, Validation set 53: 0.655968
+	best_validation_score so far: 0.734864
+Fitting model 55/128
+hyperparameters: {'n_estimators': 8, 'max_features': 'log2'}
+computed_metrics: [0.624112475270981]
+Model 55/128, Metric roc_auc_score, Validation set 54: 0.624112
+	best_validation_score so far: 0.734864
+Fitting model 56/128
+hyperparameters: {'n_estimators': 8, 'max_features': None}
+computed_metrics: [0.6208749292651885]
+Model 56/128, Metric roc_auc_score, Validation set 55: 0.620875
+	best_validation_score so far: 0.734864
+Fitting model 57/128
+hyperparameters: {'n_estimators': 9, 'max_features': 'auto'}
+computed_metrics: [0.634116099725945]
+Model 57/128, Metric roc_auc_score, Validation set 56: 0.634116
+	best_validation_score so far: 0.734864
+Fitting model 58/128
+hyperparameters: {'n_estimators': 9, 'max_features': 'sqrt'}
+computed_metrics: [0.7063711866774564]
+Model 58/128, Metric roc_auc_score, Validation set 57: 0.706371
+	best_validation_score so far: 0.734864
+Fitting model 59/128
+hyperparameters: {'n_estimators': 9, 'max_features': 'log2'}
+computed_metrics: [0.5940977392542635]
+Model 59/128, Metric roc_auc_score, Validation set 58: 0.594098
+	best_validation_score so far: 0.734864
+Fitting model 60/128
+hyperparameters: {'n_estimators': 9, 'max_features': None}
+computed_metrics: [0.5050359323186147]
+Model 60/128, Metric roc_auc_score, Validation set 59: 0.505036
+	best_validation_score so far: 0.734864
+Fitting model 61/128
+hyperparameters: {'n_estimators': 11, 'max_features': 'auto'}
+computed_metrics: [0.6360329406947752]
+Model 61/128, Metric roc_auc_score, Validation set 60: 0.636033
+	best_validation_score so far: 0.734864
+Fitting model 62/128
+hyperparameters: {'n_estimators': 11, 'max_features': 'sqrt'}
+computed_metrics: [0.6288413267694003]
+Model 62/128, Metric roc_auc_score, Validation set 61: 0.628841
+	best_validation_score so far: 0.734864
+Fitting model 63/128
+hyperparameters: {'n_estimators': 11, 'max_features': 'log2'}
+computed_metrics: [0.6084050016190949]
+Model 63/128, Metric roc_auc_score, Validation set 62: 0.608405
+	best_validation_score so far: 0.734864
+Fitting model 64/128
+hyperparameters: {'n_estimators': 11, 'max_features': None}
+computed_metrics: [0.5660758096922948]
+Model 64/128, Metric roc_auc_score, Validation set 63: 0.566076
+	best_validation_score so far: 0.734864
+Fitting model 65/128
+hyperparameters: {'n_estimators': 12, 'max_features': 'auto'}
+computed_metrics: [0.6230592588729942]
+Model 65/128, Metric roc_auc_score, Validation set 64: 0.623059
+	best_validation_score so far: 0.734864
+Fitting model 66/128
+hyperparameters: {'n_estimators': 12, 'max_features': 'sqrt'}
+computed_metrics: [0.6084445938003151]
+Model 66/128, Metric roc_auc_score, Validation set 65: 0.608445
+	best_validation_score so far: 0.734864
+Fitting model 67/128
+hyperparameters: {'n_estimators': 12, 'max_features': 'log2'}
+computed_metrics: [0.5533406466207912]
+Model 67/128, Metric roc_auc_score, Validation set 66: 0.553341
+	best_validation_score so far: 0.734864
+Fitting model 68/128
+hyperparameters: {'n_estimators': 12, 'max_features': None}
+computed_metrics: [0.5145551158570227]
+Model 68/128, Metric roc_auc_score, Validation set 67: 0.514555
+	best_validation_score so far: 0.734864
+Fitting model 69/128
+hyperparameters: {'n_estimators': 13, 'max_features': 'auto'}
+computed_metrics: [0.7237836992230275]
+Model 69/128, Metric roc_auc_score, Validation set 68: 0.723784
+	best_validation_score so far: 0.734864
+Fitting model 70/128
+hyperparameters: {'n_estimators': 13, 'max_features': 'sqrt'}
+computed_metrics: [0.6671836182360944]
+Model 70/128, Metric roc_auc_score, Validation set 69: 0.667184
+	best_validation_score so far: 0.734864
+Fitting model 71/128
+hyperparameters: {'n_estimators': 13, 'max_features': 'log2'}
+computed_metrics: [0.6245579677816211]
+Model 71/128, Metric roc_auc_score, Validation set 70: 0.624558
+	best_validation_score so far: 0.734864
+Fitting model 72/128
+hyperparameters: {'n_estimators': 13, 'max_features': None}
+computed_metrics: [0.5937990275130252]
+Model 72/128, Metric roc_auc_score, Validation set 71: 0.593799
+	best_validation_score so far: 0.734864
+Fitting model 73/128
+hyperparameters: {'n_estimators': 14, 'max_features': 'auto'}
+computed_metrics: [0.6969402003557503]
+Model 73/128, Metric roc_auc_score, Validation set 72: 0.696940
+	best_validation_score so far: 0.734864
+Fitting model 74/128
+hyperparameters: {'n_estimators': 14, 'max_features': 'sqrt'}
+computed_metrics: [0.5743170992514826]
+Model 74/128, Metric roc_auc_score, Validation set 73: 0.574317
+	best_validation_score so far: 0.734864
+Fitting model 75/128
+hyperparameters: {'n_estimators': 14, 'max_features': 'log2'}
+computed_metrics: [0.5737096972517877]
+Model 75/128, Metric roc_auc_score, Validation set 74: 0.573710
+	best_validation_score so far: 0.734864
+Fitting model 76/128
+hyperparameters: {'n_estimators': 14, 'max_features': None}
+computed_metrics: [0.568963785707802]
+Model 76/128, Metric roc_auc_score, Validation set 75: 0.568964
+	best_validation_score so far: 0.734864
+Fitting model 77/128
+hyperparameters: {'n_estimators': 15, 'max_features': 'auto'}
+computed_metrics: [0.6793429242978182]
+Model 77/128, Metric roc_auc_score, Validation set 76: 0.679343
+	best_validation_score so far: 0.734864
+Fitting model 78/128
+hyperparameters: {'n_estimators': 15, 'max_features': 'sqrt'}
+computed_metrics: [0.6890555623151963]
+Model 78/128, Metric roc_auc_score, Validation set 77: 0.689056
+	best_validation_score so far: 0.734864
+Fitting model 79/128
+hyperparameters: {'n_estimators': 15, 'max_features': 'log2'}
+computed_metrics: [0.6679574361519747]
+Model 79/128, Metric roc_auc_score, Validation set 78: 0.667957
+	best_validation_score so far: 0.734864
+Fitting model 80/128
+hyperparameters: {'n_estimators': 15, 'max_features': None}
+computed_metrics: [0.5933937709589097]
+Model 80/128, Metric roc_auc_score, Validation set 79: 0.593394
+	best_validation_score so far: 0.734864
+Fitting model 81/128
+hyperparameters: {'n_estimators': 16, 'max_features': 'auto'}
+computed_metrics: [0.6287138592591306]
+Model 81/128, Metric roc_auc_score, Validation set 80: 0.628714
+	best_validation_score so far: 0.734864
+Fitting model 82/128
+hyperparameters: {'n_estimators': 16, 'max_features': 'sqrt'}
+computed_metrics: [0.6279265220618578]
+Model 82/128, Metric roc_auc_score, Validation set 81: 0.627927
+	best_validation_score so far: 0.734864
+Fitting model 83/128
+hyperparameters: {'n_estimators': 16, 'max_features': 'log2'}
+computed_metrics: [0.6737948687245588]
+Model 83/128, Metric roc_auc_score, Validation set 82: 0.673795
+	best_validation_score so far: 0.734864
+Fitting model 84/128
+hyperparameters: {'n_estimators': 16, 'max_features': None}
+computed_metrics: [0.5742314771359982]
+Model 84/128, Metric roc_auc_score, Validation set 83: 0.574231
+	best_validation_score so far: 0.734864
+Fitting model 85/128
+hyperparameters: {'n_estimators': 17, 'max_features': 'auto'}
+computed_metrics: [0.6487513656083643]
+Model 85/128, Metric roc_auc_score, Validation set 84: 0.648751
+	best_validation_score so far: 0.734864
+Fitting model 86/128
+hyperparameters: {'n_estimators': 17, 'max_features': 'sqrt'}
+computed_metrics: [0.7014005975522375]
+Model 86/128, Metric roc_auc_score, Validation set 85: 0.701401
+	best_validation_score so far: 0.734864
+Fitting model 87/128
+hyperparameters: {'n_estimators': 17, 'max_features': 'log2'}
+computed_metrics: [0.6201410254181803]
+Model 87/128, Metric roc_auc_score, Validation set 86: 0.620141
+	best_validation_score so far: 0.734864
+Fitting model 88/128
+hyperparameters: {'n_estimators': 17, 'max_features': None}
+computed_metrics: [0.5265216112150808]
+Model 88/128, Metric roc_auc_score, Validation set 87: 0.526522
+	best_validation_score so far: 0.734864
+Fitting model 89/128
+hyperparameters: {'n_estimators': 18, 'max_features': 'auto'}
+computed_metrics: [0.6946451413955891]
+Model 89/128, Metric roc_auc_score, Validation set 88: 0.694645
+	best_validation_score so far: 0.734864
+Fitting model 90/128
+hyperparameters: {'n_estimators': 18, 'max_features': 'sqrt'}
+computed_metrics: [0.6373874439352182]
+Model 90/128, Metric roc_auc_score, Validation set 89: 0.637387
+	best_validation_score so far: 0.734864
+Fitting model 91/128
+hyperparameters: {'n_estimators': 18, 'max_features': 'log2'}
+computed_metrics: [0.5717603456300855]
+Model 91/128, Metric roc_auc_score, Validation set 90: 0.571760
+	best_validation_score so far: 0.734864
+Fitting model 92/128
+hyperparameters: {'n_estimators': 18, 'max_features': None}
+computed_metrics: [0.5340885461429168]
+Model 92/128, Metric roc_auc_score, Validation set 91: 0.534089
+	best_validation_score so far: 0.734864
+Fitting model 93/128
+hyperparameters: {'n_estimators': 19, 'max_features': 'auto'}
+computed_metrics: [0.6707710561198246]
+Model 93/128, Metric roc_auc_score, Validation set 92: 0.670771
+	best_validation_score so far: 0.734864
+Fitting model 94/128
+hyperparameters: {'n_estimators': 19, 'max_features': 'sqrt'}
+computed_metrics: [0.6885926878713376]
+Model 94/128, Metric roc_auc_score, Validation set 93: 0.688593
+	best_validation_score so far: 0.734864
+Fitting model 95/128
+hyperparameters: {'n_estimators': 19, 'max_features': 'log2'}
+computed_metrics: [0.6980188458782608]
+Model 95/128, Metric roc_auc_score, Validation set 94: 0.698019
+	best_validation_score so far: 0.734864
+Fitting model 96/128
+hyperparameters: {'n_estimators': 19, 'max_features': None}
+computed_metrics: [0.5550546983687378]
+Model 96/128, Metric roc_auc_score, Validation set 95: 0.555055
+	best_validation_score so far: 0.734864
+Fitting model 97/128
+hyperparameters: {'n_estimators': 20, 'max_features': 'auto'}
+computed_metrics: [0.7301680189166936]
+Model 97/128, Metric roc_auc_score, Validation set 96: 0.730168
+	best_validation_score so far: 0.734864
+Fitting model 98/128
+hyperparameters: {'n_estimators': 20, 'max_features': 'sqrt'}
+computed_metrics: [0.6991232424129472]
+Model 98/128, Metric roc_auc_score, Validation set 97: 0.699123
+	best_validation_score so far: 0.734864
+Fitting model 99/128
+hyperparameters: {'n_estimators': 20, 'max_features': 'log2'}
+computed_metrics: [0.6990923411983363]
+Model 99/128, Metric roc_auc_score, Validation set 98: 0.699092
+	best_validation_score so far: 0.734864
+Fitting model 100/128
+hyperparameters: {'n_estimators': 20, 'max_features': None}
+computed_metrics: [0.5368297413890225]
+Model 100/128, Metric roc_auc_score, Validation set 99: 0.536830
+	best_validation_score so far: 0.734864
+Fitting model 101/128
+hyperparameters: {'n_estimators': 25, 'max_features': 'auto'}
+computed_metrics: [0.6452415026488134]
+Model 101/128, Metric roc_auc_score, Validation set 100: 0.645242
+	best_validation_score so far: 0.734864
+Fitting model 102/128
+hyperparameters: {'n_estimators': 25, 'max_features': 'sqrt'}
+computed_metrics: [0.6943560862839165]
+Model 102/128, Metric roc_auc_score, Validation set 101: 0.694356
+	best_validation_score so far: 0.734864
+Fitting model 103/128
+hyperparameters: {'n_estimators': 25, 'max_features': 'log2'}
+computed_metrics: [0.6592374996539707]
+Model 103/128, Metric roc_auc_score, Validation set 102: 0.659237
+	best_validation_score so far: 0.734864
+Fitting model 104/128
+hyperparameters: {'n_estimators': 25, 'max_features': None}
+computed_metrics: [0.540653444809465]
+Model 104/128, Metric roc_auc_score, Validation set 103: 0.540653
+	best_validation_score so far: 0.734864
+Fitting model 105/128
+hyperparameters: {'n_estimators': 30, 'max_features': 'auto'}
+computed_metrics: [0.6595143230348598]
+Model 105/128, Metric roc_auc_score, Validation set 104: 0.659514
+	best_validation_score so far: 0.734864
+Fitting model 106/128
+hyperparameters: {'n_estimators': 30, 'max_features': 'sqrt'}
+computed_metrics: [0.653382685148168]
+Model 106/128, Metric roc_auc_score, Validation set 105: 0.653383
+	best_validation_score so far: 0.734864
+Fitting model 107/128
+hyperparameters: {'n_estimators': 30, 'max_features': 'log2'}
+computed_metrics: [0.6233100093540551]
+Model 107/128, Metric roc_auc_score, Validation set 106: 0.623310
+	best_validation_score so far: 0.734864
+Fitting model 108/128
+hyperparameters: {'n_estimators': 30, 'max_features': None}
+computed_metrics: [0.5469254257125143]
+Model 108/128, Metric roc_auc_score, Validation set 107: 0.546925
+	best_validation_score so far: 0.734864
+Fitting model 109/128
+hyperparameters: {'n_estimators': 35, 'max_features': 'auto'}
+computed_metrics: [0.6453383908321246]
+Model 109/128, Metric roc_auc_score, Validation set 108: 0.645338
+	best_validation_score so far: 0.734864
+Fitting model 110/128
+hyperparameters: {'n_estimators': 35, 'max_features': 'sqrt'}
+computed_metrics: [0.6273300642423376]
+Model 110/128, Metric roc_auc_score, Validation set 109: 0.627330
+	best_validation_score so far: 0.734864
+Fitting model 111/128
+hyperparameters: {'n_estimators': 35, 'max_features': 'log2'}
+computed_metrics: [0.6658619475361753]
+Model 111/128, Metric roc_auc_score, Validation set 110: 0.665862
+	best_validation_score so far: 0.734864
+Fitting model 112/128
+hyperparameters: {'n_estimators': 35, 'max_features': None}
+computed_metrics: [0.6259404752478052]
+Model 112/128, Metric roc_auc_score, Validation set 111: 0.625940
+	best_validation_score so far: 0.734864
+Fitting model 113/128
+hyperparameters: {'n_estimators': 40, 'max_features': 'auto'}
+computed_metrics: [0.5927171631139927]
+Model 113/128, Metric roc_auc_score, Validation set 112: 0.592717
+	best_validation_score so far: 0.734864
+Fitting model 114/128
+hyperparameters: {'n_estimators': 40, 'max_features': 'sqrt'}
+computed_metrics: [0.6495473937722465]
+Model 114/128, Metric roc_auc_score, Validation set 113: 0.649547
+	best_validation_score so far: 0.734864
+Fitting model 115/128
+hyperparameters: {'n_estimators': 40, 'max_features': 'log2'}
+computed_metrics: [0.658694153297063]
+Model 115/128, Metric roc_auc_score, Validation set 114: 0.658694
+	best_validation_score so far: 0.734864
+Fitting model 116/128
+hyperparameters: {'n_estimators': 40, 'max_features': None}
+computed_metrics: [0.5641393335766804]
+Model 116/128, Metric roc_auc_score, Validation set 115: 0.564139
+	best_validation_score so far: 0.734864
+Fitting model 117/128
+hyperparameters: {'n_estimators': 45, 'max_features': 'auto'}
+computed_metrics: [0.6671401634030478]
+Model 117/128, Metric roc_auc_score, Validation set 116: 0.667140
+	best_validation_score so far: 0.734864
+Fitting model 118/128
+hyperparameters: {'n_estimators': 45, 'max_features': 'sqrt'}
+computed_metrics: [0.6527459913721234]
+Model 118/128, Metric roc_auc_score, Validation set 117: 0.652746
+	best_validation_score so far: 0.734864
+Fitting model 119/128
+hyperparameters: {'n_estimators': 45, 'max_features': 'log2'}
+computed_metrics: [0.7020340724517602]
+Model 119/128, Metric roc_auc_score, Validation set 118: 0.702034
+	best_validation_score so far: 0.734864
+Fitting model 120/128
+hyperparameters: {'n_estimators': 45, 'max_features': None}
+computed_metrics: [0.5731154926458327]
+Model 120/128, Metric roc_auc_score, Validation set 119: 0.573115
+	best_validation_score so far: 0.734864
+Fitting model 121/128
+hyperparameters: {'n_estimators': 65, 'max_features': 'auto'}
+computed_metrics: [0.6686160182883688]
+Model 121/128, Metric roc_auc_score, Validation set 120: 0.668616
+	best_validation_score so far: 0.734864
+Fitting model 122/128
+hyperparameters: {'n_estimators': 65, 'max_features': 'sqrt'}
+computed_metrics: [0.6782919611133965]
+Model 122/128, Metric roc_auc_score, Validation set 121: 0.678292
+	best_validation_score so far: 0.734864
+Fitting model 123/128
+hyperparameters: {'n_estimators': 65, 'max_features': 'log2'}
+computed_metrics: [0.6873859310632529]
+Model 123/128, Metric roc_auc_score, Validation set 122: 0.687386
+	best_validation_score so far: 0.734864
+Fitting model 124/128
+hyperparameters: {'n_estimators': 65, 'max_features': None}
+computed_metrics: [0.5499405473506392]
+Model 124/128, Metric roc_auc_score, Validation set 123: 0.549941
+	best_validation_score so far: 0.734864
+Fitting model 125/128
+hyperparameters: {'n_estimators': 75, 'max_features': 'auto'}
+computed_metrics: [0.6911082398732535]
+Model 125/128, Metric roc_auc_score, Validation set 124: 0.691108
+	best_validation_score so far: 0.734864
+Fitting model 126/128
+hyperparameters: {'n_estimators': 75, 'max_features': 'sqrt'}
+computed_metrics: [0.6706590392168603]
+Model 126/128, Metric roc_auc_score, Validation set 125: 0.670659
+	best_validation_score so far: 0.734864
+Fitting model 127/128
+hyperparameters: {'n_estimators': 75, 'max_features': 'log2'}
+computed_metrics: [0.6802400251844899]
+Model 127/128, Metric roc_auc_score, Validation set 126: 0.680240
+	best_validation_score so far: 0.734864
+Fitting model 128/128
+hyperparameters: {'n_estimators': 75, 'max_features': None}
+computed_metrics: [0.5760739620571711]
+Model 128/128, Metric roc_auc_score, Validation set 127: 0.576074
+	best_validation_score so far: 0.734864
+computed_metrics: [1.0]
+Best hyperparameters: (100, 'auto')
+train_score: 1.000000
+validation_score: 0.734864
+Evaluating Model
+computed_metrics: [1.0]
+computed_metrics: [1.0]
+computed_metrics: [1.0]
+computed_metrics: [1.0]
+RF Training ROC-AUC Scores: 1.000000
+RF Training Recall Scores: 1.000000
+RF Training Precision: 1.000000
+RF Training MCC: 1.000000
+RF Training F1 Scores: 1.000000
+computed_metrics: [0.734864359762241]
+computed_metrics: [0.152317880794702]
+computed_metrics: [0.8797011849562082]
+computed_metrics: [0.2120549368473517]
+RF Validation ROC-AUC Scores: 0.734864
+RF Validation Recall Scores: 0.152318
+RF Validation Precision: 0.879701
+RF Validation MCC: 0.212055
+RF Validation F1 Scores: 0.259674
+computed_metrics: [0.9785312614381261]
+computed_metrics: [1.0]
+computed_metrics: [0.8659485338120886]
+computed_metrics: [0.6362709528502761]
+RF Tmp ROC-AUC Scores: 0.978531
+RF Tmp Recall Scores: 1.000000
+RF Tmp Precision: 0.865949
+RF Tmp MCC: 0.636271
+RF Tmp F1 Scores: 0.928159
+Fitting model 1/1
+hyperparameters: {'learning_rate': 0.00047680121145235856, 'weight_decay_penalty': 2.465143732148027e-06, 'nb_epoch': 25000000}
+computed_metrics: [0.7888349405183808]
+Model 1/1, Metric roc_auc_score, Validation set 0: 0.788835
+	best_validation_score so far: 0.788835
+computed_metrics: [0.8787388459250446]
+Best hyperparameters: (0.00047680121145235856, 2.465143732148027e-06, 25000000)
+train_score: 0.878739
+validation_score: 0.788835
+Epoch 0 Train loss: 0.431496
+Epoch 0 Validation loss: 0.291936
+Epoch 1 Train loss: 0.504411
+Epoch 1 Validation loss: 0.287995
+Epoch 2 Train loss: 0.526804
+Epoch 2 Validation loss: 0.295549
+Epoch 3 Train loss: 0.210541
+Epoch 3 Validation loss: 0.326805
+Epoch 4 Train loss: 0.502574
+Epoch 4 Validation loss: 0.290054
+Epoch 5 Train loss: 0.488597
+Epoch 5 Validation loss: 0.325273
+Epoch 6 Train loss: 0.486935
+Epoch 6 Validation loss: 0.297085
+Epoch 7 Train loss: 0.492703
+Epoch 7 Validation loss: 0.313924
+Epoch 8 Train loss: 0.496379
+Epoch 8 Validation loss: 0.309688
+Epoch 9 Train loss: 0.549895
+Epoch 9 Validation loss: 0.304005
+Epoch 10 Train loss: 0.461570
+Epoch 10 Validation loss: 0.303833
+Epoch 11 Train loss: 0.534897
+Epoch 11 Validation loss: 0.296083
+Epoch 12 Train loss: 0.439880
+Epoch 12 Validation loss: 0.315825
+Epoch 13 Train loss: 0.557591
+Epoch 13 Validation loss: 0.305360
+Epoch 14 Train loss: 0.504264
+Epoch 14 Validation loss: 0.284306
+Epoch 15 Train loss: 0.490643
+Epoch 15 Validation loss: 0.294914
+Epoch 16 Train loss: 0.000000
+Epoch 16 Validation loss: 0.273211
+Epoch 17 Train loss: 0.542236
+Epoch 17 Validation loss: 0.294549
+Epoch 18 Train loss: 0.473692
+Epoch 18 Validation loss: 0.278563
+Epoch 19 Train loss: 0.493849
+Epoch 19 Validation loss: 0.293515
+Epoch 20 Train loss: 0.557307
+Epoch 20 Validation loss: 0.235581
+Epoch 21 Train loss: 0.514961
+Epoch 21 Validation loss: 0.282302
+Epoch 22 Train loss: 0.505703
+Epoch 22 Validation loss: 0.293065
+Epoch 23 Train loss: 0.523864
+Epoch 23 Validation loss: 0.296358
+Epoch 24 Train loss: 0.492277
+Epoch 24 Validation loss: 0.303530
+Epoch 25 Train loss: 0.459553
+Epoch 25 Validation loss: 0.313865
+Epoch 26 Train loss: 0.540083
+Epoch 26 Validation loss: 0.283521
+Epoch 27 Train loss: 0.484673
+Epoch 27 Validation loss: 0.288128
+Epoch 28 Train loss: 0.519783
+Epoch 28 Validation loss: 0.301581
+Epoch 29 Train loss: 0.524434
+Epoch 29 Validation loss: 0.286957
+Epoch 30 Train loss: 0.517768
+Epoch 30 Validation loss: 0.282097
+Epoch 31 Train loss: 0.492131
+Epoch 31 Validation loss: 0.289677
+Epoch 32 Train loss: 0.587048
+Epoch 32 Validation loss: 0.295331
+Epoch 33 Train loss: 0.482797
+Epoch 33 Validation loss: 0.359194
+Epoch 34 Train loss: 0.474571
+Epoch 34 Validation loss: 0.296200
+Epoch 35 Train loss: 0.540158
+Epoch 35 Validation loss: 0.315511
+Epoch 36 Train loss: 0.514190
+Epoch 36 Validation loss: 0.304038
+Epoch 37 Train loss: 0.574544
+Epoch 37 Validation loss: 0.283899
+Epoch 38 Train loss: 0.489137
+Epoch 38 Validation loss: 0.311218
+Epoch 39 Train loss: 0.498417
+Epoch 39 Validation loss: 0.310140
+Epoch 40 Train loss: 0.532309
+Epoch 40 Validation loss: 0.292390
+Epoch 41 Train loss: 0.503296
+Epoch 41 Validation loss: 0.300249
+Epoch 42 Train loss: 0.477588
+Epoch 42 Validation loss: 0.363388
+Epoch 43 Train loss: 0.454515
+Epoch 43 Validation loss: 0.314802
+Epoch 44 Train loss: 0.483541
+Epoch 44 Validation loss: 0.292734
+Epoch 45 Train loss: 0.480410
+Epoch 45 Validation loss: 0.293023
+Epoch 46 Train loss: 0.539010
+Epoch 46 Validation loss: 0.520225
+Epoch 47 Train loss: 0.514617
+Epoch 47 Validation loss: 0.268879
+Epoch 48 Train loss: 0.512733
+Epoch 48 Validation loss: 0.300758
+Epoch 49 Train loss: 0.515382
+Epoch 49 Validation loss: 0.279887
+Epoch 50 Train loss: 0.495803
+Epoch 50 Validation loss: 0.288223
+Epoch 51 Train loss: 0.427493
+Epoch 51 Validation loss: 0.310918
+Epoch 52 Train loss: 0.525718
+Epoch 52 Validation loss: 0.292537
+Epoch 53 Train loss: 0.568926
+Epoch 53 Validation loss: 0.289706
+Epoch 54 Train loss: 0.596336
+Epoch 54 Validation loss: 0.284652
+Epoch 55 Train loss: 0.537374
+Epoch 55 Validation loss: 0.320446
+Epoch 56 Train loss: 0.490699
+Epoch 56 Validation loss: 0.270258
+Epoch 57 Train loss: 0.495626
+Epoch 57 Validation loss: 0.297413
+Epoch 58 Train loss: 0.523643
+Epoch 58 Validation loss: 0.288682
+Epoch 59 Train loss: 0.507667
+Epoch 59 Validation loss: 0.000000
+Epoch 60 Train loss: 0.591725
+Epoch 60 Validation loss: 0.295186
+Epoch 61 Train loss: 0.484033
+Epoch 61 Validation loss: 0.303374
+Epoch 62 Train loss: 0.521711
+Epoch 62 Validation loss: 0.280886
+Epoch 63 Train loss: 0.475799
+Epoch 63 Validation loss: 0.298920
+Epoch 64 Train loss: 0.415304
+Epoch 64 Validation loss: 0.319182
+Epoch 65 Train loss: 0.501164
+Epoch 65 Validation loss: 0.303468
+Epoch 66 Train loss: 0.573415
+Epoch 66 Validation loss: 0.285358
+Epoch 67 Train loss: 0.527006
+Epoch 67 Validation loss: 0.297217
+Epoch 68 Train loss: 0.496182
+Epoch 68 Validation loss: 0.264518
+Epoch 69 Train loss: 0.487559
+Epoch 69 Validation loss: 0.272781
+Epoch 70 Train loss: 0.475996
+Epoch 70 Validation loss: 0.301004
+Epoch 71 Train loss: 0.496644
+Epoch 71 Validation loss: 0.283409
+Epoch 72 Train loss: 0.518903
+Epoch 72 Validation loss: 0.295950
+Epoch 73 Train loss: 0.550809
+Epoch 73 Validation loss: 0.320892
+Epoch 74 Train loss: 0.478270
+Epoch 74 Validation loss: 0.277283
+Epoch 75 Train loss: 0.535980
+Epoch 75 Validation loss: 0.288382
+Epoch 76 Train loss: 0.532241
+Epoch 76 Validation loss: 0.282186
+Epoch 77 Train loss: 0.643906
+Epoch 77 Validation loss: 0.285103
+Epoch 78 Train loss: 0.544296
+Epoch 78 Validation loss: 0.276690
+Epoch 79 Train loss: 0.517982
+Epoch 79 Validation loss: 0.286389
+Epoch 80 Train loss: 0.517312
+Epoch 80 Validation loss: 0.296410
+Epoch 81 Train loss: 0.549841
+Epoch 81 Validation loss: 0.320551
+Epoch 82 Train loss: 0.498101
+Epoch 82 Validation loss: 0.287517
+Epoch 83 Train loss: 0.472233
+Epoch 83 Validation loss: 0.303127
+Epoch 84 Train loss: 0.536928
+Epoch 84 Validation loss: 0.270091
+Epoch 85 Train loss: 0.539160
+Epoch 85 Validation loss: 0.290364
+Epoch 86 Train loss: 0.547383
+Epoch 86 Validation loss: 0.300755
+Epoch 87 Train loss: 0.561304
+Epoch 87 Validation loss: 0.273148
+Epoch 88 Train loss: 0.508862
+Epoch 88 Validation loss: 0.290343
+Epoch 89 Train loss: 0.567286
+Epoch 89 Validation loss: 0.287712
+Epoch 90 Train loss: 0.542373
+Epoch 90 Validation loss: 0.240418
+Epoch 91 Train loss: 0.505331
+Epoch 91 Validation loss: 0.318014
+Epoch 92 Train loss: 0.453122
+Epoch 92 Validation loss: 0.279632
+Epoch 93 Train loss: 0.522908
+Epoch 93 Validation loss: 0.287649
+Epoch 94 Train loss: 0.488640
+Epoch 94 Validation loss: 0.324753
+Epoch 95 Train loss: 0.478511
+Epoch 95 Validation loss: 0.320654
+Epoch 96 Train loss: 0.513837
+Epoch 96 Validation loss: 0.266259
+Epoch 97 Train loss: 0.546454
+Epoch 97 Validation loss: 0.285016
+Epoch 98 Train loss: 0.540793
+Epoch 98 Validation loss: 0.284239
+Epoch 99 Train loss: 0.482863
+Epoch 99 Validation loss: 0.269694
+Epoch 100 Train loss: 0.541459
+Epoch 100 Validation loss: 0.277757
+Epoch 101 Train loss: 0.511344
+Epoch 101 Validation loss: 0.290620
+Epoch 102 Train loss: 0.472397
+Epoch 102 Validation loss: 0.286408
+Epoch 103 Train loss: 0.274180
+Epoch 103 Validation loss: 0.295896
+Epoch 104 Train loss: 0.499028
+Epoch 104 Validation loss: 0.258268
+Epoch 105 Train loss: 0.598297
+Epoch 105 Validation loss: 0.279287
+Epoch 106 Train loss: 0.555561
+Epoch 106 Validation loss: 0.272086
+Epoch 107 Train loss: 0.544481
+Epoch 107 Validation loss: 0.187207
+Epoch 108 Train loss: 0.539484
+Epoch 108 Validation loss: 0.263488
+Epoch 109 Train loss: 0.551334
+Epoch 109 Validation loss: 0.285941
+Epoch 110 Train loss: 0.453561
+Epoch 110 Validation loss: 0.288064
+Epoch 111 Train loss: 0.494255
+Epoch 111 Validation loss: 0.288136
+Epoch 112 Train loss: 0.476520
+Epoch 112 Validation loss: 0.298681
+Epoch 113 Train loss: 0.484056
+Epoch 113 Validation loss: 0.284508
+Epoch 114 Train loss: 0.544615
+Epoch 114 Validation loss: 0.285016
+Epoch 115 Train loss: 0.482682
+Epoch 115 Validation loss: 0.275834
+Epoch 116 Train loss: 0.000000
+Epoch 116 Validation loss: 0.281463
+Epoch 117 Train loss: 0.532894
+Epoch 117 Validation loss: 0.278652
+Epoch 118 Train loss: 0.477166
+Epoch 118 Validation loss: 0.271642
+Epoch 119 Train loss: 0.538718
+Epoch 119 Validation loss: 0.271978
+Epoch 120 Train loss: 0.525937
+Epoch 120 Validation loss: 0.188705
+Epoch 121 Train loss: 0.586392
+Epoch 121 Validation loss: 0.292564
+Epoch 122 Train loss: 0.515384
+Epoch 122 Validation loss: 0.273708
+Epoch 123 Train loss: 0.587948
+Epoch 123 Validation loss: 0.286846
+Epoch 124 Train loss: 0.472877
+Epoch 124 Validation loss: 0.287941
+Epoch 125 Train loss: 0.482942
+Epoch 125 Validation loss: 0.257663
+Epoch 126 Train loss: 0.442294
+Epoch 126 Validation loss: 0.263433
+Epoch 127 Train loss: 0.498446
+Epoch 127 Validation loss: 0.288152
+Epoch 128 Train loss: 0.462022
+Epoch 128 Validation loss: 0.279374
+Epoch 129 Train loss: 0.455847
+Epoch 129 Validation loss: 0.282763
+Epoch 130 Train loss: 0.501980
+Epoch 130 Validation loss: 0.255838
+Epoch 131 Train loss: 0.453888
+Epoch 131 Validation loss: 0.284203
+Epoch 132 Train loss: 0.560621
+Epoch 132 Validation loss: 0.271946
+Epoch 133 Train loss: 0.547793
+Epoch 133 Validation loss: 0.233383
+Epoch 134 Train loss: 0.508751
+Epoch 134 Validation loss: 0.269952
+Epoch 135 Train loss: 0.519304
+Epoch 135 Validation loss: 0.282454
+Epoch 136 Train loss: 0.509463
+Epoch 136 Validation loss: 0.269908
+Epoch 137 Train loss: 0.499728
+Epoch 137 Validation loss: 0.276679
+Epoch 138 Train loss: 0.452009
+Epoch 138 Validation loss: 0.275208
+Epoch 139 Train loss: 0.460659
+Epoch 139 Validation loss: 0.287059
+Epoch 140 Train loss: 0.510834
+Epoch 140 Validation loss: 0.288007
+Epoch 141 Train loss: 0.540875
+Epoch 141 Validation loss: 0.272130
+Epoch 142 Train loss: 0.610640
+Epoch 142 Validation loss: 0.264440
+Epoch 143 Train loss: 0.539683
+Epoch 143 Validation loss: 0.274780
+Epoch 144 Train loss: 0.535684
+Epoch 144 Validation loss: 0.287370
+Epoch 145 Train loss: 0.469342
+Epoch 145 Validation loss: 0.286666
+Epoch 146 Train loss: 0.437820
+Epoch 146 Validation loss: 0.186028
+Epoch 147 Train loss: 0.484431
+Epoch 147 Validation loss: 0.299548
+Epoch 148 Train loss: 0.459002
+Epoch 148 Validation loss: 0.249486
+Epoch 149 Train loss: 0.519356
+Epoch 149 Validation loss: 0.267035
+Epoch 150 Train loss: 0.678423
+Epoch 150 Validation loss: 0.286694
+Epoch 151 Train loss: 0.452191
+Epoch 151 Validation loss: 0.273144
+Epoch 152 Train loss: 0.489291
+Epoch 152 Validation loss: 0.298337
+Epoch 153 Train loss: 0.501774
+Epoch 153 Validation loss: 0.280308
+Epoch 154 Train loss: 0.527990
+Epoch 154 Validation loss: 0.271224
+Epoch 155 Train loss: 0.493901
+Epoch 155 Validation loss: 0.220968
+Epoch 156 Train loss: 0.524100
+Epoch 156 Validation loss: 0.261902
+Epoch 157 Train loss: 0.494293
+Epoch 157 Validation loss: 0.272072
+Epoch 158 Train loss: 0.476984
+Epoch 158 Validation loss: 0.259993
+Epoch 159 Train loss: 0.575967
+Epoch 159 Validation loss: 0.000000
+Epoch 160 Train loss: 0.440353
+Epoch 160 Validation loss: 0.295984
+Epoch 161 Train loss: 0.439737
+Epoch 161 Validation loss: 0.272562
+Epoch 162 Train loss: 0.461764
+Epoch 162 Validation loss: 0.274446
+Epoch 163 Train loss: 0.505192
+Epoch 163 Validation loss: 0.273884
+Epoch 164 Train loss: 0.491568
+Epoch 164 Validation loss: 0.283073
+Epoch 165 Train loss: 0.465071
+Epoch 165 Validation loss: 0.278808
+Epoch 166 Train loss: 0.491236
+Epoch 166 Validation loss: 0.282408
+Epoch 167 Train loss: 0.503047
+Epoch 167 Validation loss: 0.261225
+Epoch 168 Train loss: 0.466219
+Epoch 168 Validation loss: 0.252690
+Epoch 169 Train loss: 0.453441
+Epoch 169 Validation loss: 0.274746
+Epoch 170 Train loss: 0.421089
+Epoch 170 Validation loss: 0.283218
+Epoch 171 Train loss: 0.445665
+Epoch 171 Validation loss: 0.275949
+Epoch 172 Train loss: 0.492733
+Epoch 172 Validation loss: 0.278366
+Epoch 173 Train loss: 0.473133
+Epoch 173 Validation loss: 0.286972
+Epoch 174 Train loss: 0.499834
+Epoch 174 Validation loss: 0.268685
+Epoch 175 Train loss: 0.514033
+Epoch 175 Validation loss: 0.268434
+Epoch 176 Train loss: 0.642941
+Epoch 176 Validation loss: 0.265167
+Epoch 177 Train loss: 0.383501
+Epoch 177 Validation loss: 0.252295
+Epoch 178 Train loss: 0.512241
+Epoch 178 Validation loss: 0.266940
+Epoch 179 Train loss: 0.493069
+Epoch 179 Validation loss: 0.272091
+Epoch 180 Train loss: 0.493794
+Epoch 180 Validation loss: 0.284988
+Epoch 181 Train loss: 0.448765
+Epoch 181 Validation loss: 0.299894
+Epoch 182 Train loss: 0.513884
+Epoch 182 Validation loss: 0.274644
+Epoch 183 Train loss: 0.503273
+Epoch 183 Validation loss: 0.279173
+Epoch 184 Train loss: 0.449152
+Epoch 184 Validation loss: 0.263314
+Epoch 185 Train loss: 0.435073
+Epoch 185 Validation loss: 0.272875
+Epoch 186 Train loss: 0.452692
+Epoch 186 Validation loss: 0.238635
+Epoch 187 Train loss: 0.548787
+Epoch 187 Validation loss: 0.283198
+Epoch 188 Train loss: 0.540575
+Epoch 188 Validation loss: 0.265979
+Epoch 189 Train loss: 0.507303
+Epoch 189 Validation loss: 0.271282
+Epoch 190 Train loss: 0.505750
+Epoch 190 Validation loss: 0.266052
+Epoch 191 Train loss: 0.441901
+Epoch 191 Validation loss: 0.266369
+Epoch 192 Train loss: 0.448422
+Epoch 192 Validation loss: 0.287106
+Epoch 193 Train loss: 0.517247
+Epoch 193 Validation loss: 0.276712
+Epoch 194 Train loss: 0.454645
+Epoch 194 Validation loss: 0.236302
+Epoch 195 Train loss: 0.446602
+Epoch 195 Validation loss: 0.261189
+Epoch 196 Train loss: 0.434569
+Epoch 196 Validation loss: 0.269297
+Epoch 197 Train loss: 0.506828
+Epoch 197 Validation loss: 0.277943
+Epoch 198 Train loss: 0.492195
+Epoch 198 Validation loss: 0.274037
+Epoch 199 Train loss: 0.488825
+Epoch 199 Validation loss: 0.235431
+Epoch 200 Train loss: 0.467371
+Epoch 200 Validation loss: 0.271399
+Epoch 201 Train loss: 0.489291
+Epoch 201 Validation loss: 0.270768
+Epoch 202 Train loss: 0.481551
+Epoch 202 Validation loss: 0.271237
+Epoch 203 Train loss: 0.334544
+Epoch 203 Validation loss: 0.273506
+Epoch 204 Train loss: 0.484934
+Epoch 204 Validation loss: 0.272870
+Epoch 205 Train loss: 0.464429
+Epoch 205 Validation loss: 0.268357
+Epoch 206 Train loss: 0.452520
+Epoch 206 Validation loss: 0.274824
+Epoch 207 Train loss: 0.492944
+Epoch 207 Validation loss: 0.240714
+Epoch 208 Train loss: 0.451852
+Epoch 208 Validation loss: 0.267520
+Epoch 209 Train loss: 0.461568
+Epoch 209 Validation loss: 0.257601
+Epoch 210 Train loss: 0.465852
+Epoch 210 Validation loss: 0.260679
+Epoch 211 Train loss: 0.505440
+Epoch 211 Validation loss: 0.273231
+Epoch 212 Train loss: 0.449889
+Epoch 212 Validation loss: 0.285074
+Epoch 213 Train loss: 0.491274
+Epoch 213 Validation loss: 0.233363
+Epoch 214 Train loss: 0.491365
+Epoch 214 Validation loss: 0.283163
+Epoch 215 Train loss: 0.565650
+Epoch 215 Validation loss: 0.269242
+Epoch 216 Train loss: 0.000000
+Epoch 216 Validation loss: 0.311816
+Epoch 217 Train loss: 0.450087
+Epoch 217 Validation loss: 0.241886
+Epoch 218 Train loss: 0.455516
+Epoch 218 Validation loss: 0.267603
+Epoch 219 Train loss: 0.468888
+Epoch 219 Validation loss: 0.276068
+Epoch 220 Train loss: 0.486330
+Epoch 220 Validation loss: 0.425793
+Epoch 221 Train loss: 0.480126
+Epoch 221 Validation loss: 0.297445
+Epoch 222 Train loss: 0.526552
+Epoch 222 Validation loss: 0.285745
+Epoch 223 Train loss: 0.455166
+Epoch 223 Validation loss: 0.275174
+Epoch 224 Train loss: 0.438499
+Epoch 224 Validation loss: 0.280252
+Epoch 225 Train loss: 0.427153
+Epoch 225 Validation loss: 0.283423
+Epoch 226 Train loss: 0.529752
+Epoch 226 Validation loss: 0.255689
+Epoch 227 Train loss: 0.514105
+Epoch 227 Validation loss: 0.258896
+Epoch 228 Train loss: 0.463863
+Epoch 228 Validation loss: 0.273879
+Epoch 229 Train loss: 0.465905
+Epoch 229 Validation loss: 0.206865
+Epoch 230 Train loss: 0.448799
+Epoch 230 Validation loss: 0.276117
+Epoch 231 Train loss: 0.465271
+Epoch 231 Validation loss: 0.268518
+Epoch 232 Train loss: 0.409070
+Epoch 232 Validation loss: 0.269001
+Epoch 233 Train loss: 0.434604
+Epoch 233 Validation loss: 0.266928
+Epoch 234 Train loss: 0.525729
+Epoch 234 Validation loss: 0.258423
+Epoch 235 Train loss: 0.428684
+Epoch 235 Validation loss: 0.250415
+Epoch 236 Train loss: 0.460072
+Epoch 236 Validation loss: 0.273400
+Epoch 237 Train loss: 0.434331
+Epoch 237 Validation loss: 0.273026
+Epoch 238 Train loss: 0.425839
+Epoch 238 Validation loss: 0.253291
+Epoch 239 Train loss: 0.432076
+Epoch 239 Validation loss: 0.281257
+Epoch 240 Train loss: 0.474356
+Epoch 240 Validation loss: 0.261666
+Epoch 241 Train loss: 0.477605
+Epoch 241 Validation loss: 0.260341
+Epoch 242 Train loss: 0.424256
+Epoch 242 Validation loss: 0.302320
+Epoch 243 Train loss: 0.417390
+Epoch 243 Validation loss: 0.256392
+Epoch 244 Train loss: 0.431817
+Epoch 244 Validation loss: 0.270795
+Epoch 245 Train loss: 0.433893
+Epoch 245 Validation loss: 0.265346
+Epoch 246 Train loss: 0.414240
+Epoch 246 Validation loss: 0.220839
+Epoch 247 Train loss: 0.453435
+Epoch 247 Validation loss: 0.292017
+Epoch 248 Train loss: 0.437411
+Epoch 248 Validation loss: 0.274388
+Epoch 249 Train loss: 0.400104
+Epoch 249 Validation loss: 0.272764
+Epoch 250 Train loss: 0.423254
+Epoch 250 Validation loss: 0.265647
+Epoch 251 Train loss: 0.405569
+Epoch 251 Validation loss: 0.270960
+Epoch 252 Train loss: 0.496124
+Epoch 252 Validation loss: 0.293703
+Epoch 253 Train loss: 0.468564
+Epoch 253 Validation loss: 0.261170
+Epoch 254 Train loss: 0.440800
+Epoch 254 Validation loss: 0.260751
+Epoch 255 Train loss: 0.430607
+Epoch 255 Validation loss: 0.253927
+Epoch 256 Train loss: 0.425206
+Epoch 256 Validation loss: 0.250027
+Epoch 257 Train loss: 0.449137
+Epoch 257 Validation loss: 0.269869
+Epoch 258 Train loss: 0.472638
+Epoch 258 Validation loss: 0.261547
+Epoch 259 Train loss: 0.416630
+Epoch 259 Validation loss: 0.000000
+Epoch 260 Train loss: 0.407336
+Epoch 260 Validation loss: 0.273631
+Epoch 261 Train loss: 0.457626
+Epoch 261 Validation loss: 0.266608
+Epoch 262 Train loss: 0.453018
+Epoch 262 Validation loss: 0.271880
+Epoch 263 Train loss: 0.430611
+Epoch 263 Validation loss: 0.270460
+Epoch 264 Train loss: 0.419847
+Epoch 264 Validation loss: 0.291186
+Epoch 265 Train loss: 0.414020
+Epoch 265 Validation loss: 0.254028
+Epoch 266 Train loss: 0.435521
+Epoch 266 Validation loss: 0.275020
+Epoch 267 Train loss: 0.413122
+Epoch 267 Validation loss: 0.272743
+Epoch 268 Train loss: 0.393211
+Epoch 268 Validation loss: 0.233142
+Epoch 269 Train loss: 0.413223
+Epoch 269 Validation loss: 0.238028
+Epoch 270 Train loss: 0.463215
+Epoch 270 Validation loss: 0.264657
+Epoch 271 Train loss: 0.432355
+Epoch 271 Validation loss: 0.280037
+Epoch 272 Train loss: 0.425082
+Epoch 272 Validation loss: 0.269381
+Epoch 273 Train loss: 0.394998
+Epoch 273 Validation loss: 0.273923
+Epoch 274 Train loss: 0.433748
+Epoch 274 Validation loss: 0.259704
+Epoch 275 Train loss: 0.428983
+Epoch 275 Validation loss: 0.270258
+Epoch 276 Train loss: 0.428884
+Epoch 276 Validation loss: 0.271237
+Epoch 277 Train loss: 0.357730
+Epoch 277 Validation loss: 0.273090
+Epoch 278 Train loss: 0.398734
+Epoch 278 Validation loss: 0.275265
+Epoch 279 Train loss: 0.406187
+Epoch 279 Validation loss: 0.268433
+Epoch 280 Train loss: 0.424895
+Epoch 280 Validation loss: 0.263819
+Epoch 281 Train loss: 0.393988
+Epoch 281 Validation loss: 0.248152
+Epoch 282 Train loss: 0.390551
+Epoch 282 Validation loss: 0.289104
+Epoch 283 Train loss: 0.398033
+Epoch 283 Validation loss: 0.272999
+Epoch 284 Train loss: 0.391979
+Epoch 284 Validation loss: 0.265366
+Epoch 285 Train loss: 0.430859
+Epoch 285 Validation loss: 0.262257
+Epoch 286 Train loss: 0.414317
+Epoch 286 Validation loss: 0.253132
+Epoch 287 Train loss: 0.393198
+Epoch 287 Validation loss: 0.257197
+Epoch 288 Train loss: 0.424765
+Epoch 288 Validation loss: 0.275970
+Epoch 289 Train loss: 0.385010
+Epoch 289 Validation loss: 0.268379
+Epoch 290 Train loss: 0.307230
+Epoch 290 Validation loss: 0.258087
+Epoch 291 Train loss: 0.388183
+Epoch 291 Validation loss: 0.279807
+Epoch 292 Train loss: 0.402324
+Epoch 292 Validation loss: 0.267496
+Epoch 293 Train loss: 0.435856
+Epoch 293 Validation loss: 0.263945
+Epoch 294 Train loss: 0.439525
+Epoch 294 Validation loss: 0.223499
+Epoch 295 Train loss: 0.412004
+Epoch 295 Validation loss: 0.259753
+Epoch 296 Train loss: 0.391428
+Epoch 296 Validation loss: 0.249315
+Epoch 297 Train loss: 0.392257
+Epoch 297 Validation loss: 0.266704
+Epoch 298 Train loss: 0.399919
+Epoch 298 Validation loss: 0.268239
+Epoch 299 Train loss: 0.370278
+Epoch 299 Validation loss: 0.266978
+Epoch 300 Train loss: 0.393573
+Epoch 300 Validation loss: 0.267549
+Epoch 301 Train loss: 0.420585
+Epoch 301 Validation loss: 0.270356
+Epoch 302 Train loss: 0.428515
+Epoch 302 Validation loss: 0.269443
+Epoch 303 Train loss: 0.320197
+Epoch 303 Validation loss: 0.304688
+Epoch 304 Train loss: 0.410470
+Epoch 304 Validation loss: 0.267526
+Epoch 305 Train loss: 0.437254
+Epoch 305 Validation loss: 0.252606
+Epoch 306 Train loss: 0.408866
+Epoch 306 Validation loss: 0.266626
+Epoch 307 Train loss: 0.396018
+Epoch 307 Validation loss: 0.208118
+Epoch 308 Train loss: 0.431246
+Epoch 308 Validation loss: 0.275057
+Epoch 309 Train loss: 0.388306
+Epoch 309 Validation loss: 0.269410
+Epoch 310 Train loss: 0.380647
+Epoch 310 Validation loss: 0.264094
+Epoch 311 Train loss: 0.391489
+Epoch 311 Validation loss: 0.256135
+Epoch 312 Train loss: 0.365246
+Epoch 312 Validation loss: 0.254476
+Epoch 313 Train loss: 0.398477
+Epoch 313 Validation loss: 0.256895
+Epoch 314 Train loss: 0.429157
+Epoch 314 Validation loss: 0.269884
+Epoch 315 Train loss: 0.418233
+Epoch 315 Validation loss: 0.259180
+Epoch 316 Train loss: 0.000000
+Epoch 316 Validation loss: 0.329946
+Epoch 317 Train loss: 0.404102
+Epoch 317 Validation loss: 0.257990
+Epoch 318 Train loss: 0.402792
+Epoch 318 Validation loss: 0.257844
+Epoch 319 Train loss: 0.403845
+Epoch 319 Validation loss: 0.253715
+Epoch 320 Train loss: 0.426483
+Epoch 320 Validation loss: 0.232889
+Epoch 321 Train loss: 0.413743
+Epoch 321 Validation loss: 0.284273
+Epoch 322 Train loss: 0.396176
+Epoch 322 Validation loss: 0.275311
+Epoch 323 Train loss: 0.377121
+Epoch 323 Validation loss: 0.248841
+Epoch 324 Train loss: 0.390486
+Epoch 324 Validation loss: 0.261970
+Epoch 325 Train loss: 0.399593
+Epoch 325 Validation loss: 0.272910
+Epoch 326 Train loss: 0.405533
+Epoch 326 Validation loss: 0.268509
+Epoch 327 Train loss: 0.380946
+Epoch 327 Validation loss: 0.266873
+Epoch 328 Train loss: 0.394796
+Epoch 328 Validation loss: 0.268953
+Epoch 329 Train loss: 0.378218
+Epoch 329 Validation loss: 0.245227
+Epoch 330 Train loss: 0.372491
+Epoch 330 Validation loss: 0.261567
+Epoch 331 Train loss: 0.405230
+Epoch 331 Validation loss: 0.273488
+Epoch 332 Train loss: 0.381537
+Epoch 332 Validation loss: 0.260629
+Epoch 333 Train loss: 0.381960
+Epoch 333 Validation loss: 0.188387
+Epoch 334 Train loss: 0.368598
+Epoch 334 Validation loss: 0.263325
+Epoch 335 Train loss: 0.390714
+Epoch 335 Validation loss: 0.275001
+Epoch 336 Train loss: 0.385701
+Epoch 336 Validation loss: 0.253608
+Epoch 337 Train loss: 0.407286
+Epoch 337 Validation loss: 0.262751
+Epoch 338 Train loss: 0.360104
+Epoch 338 Validation loss: 0.267308
+Epoch 339 Train loss: 0.382407
+Epoch 339 Validation loss: 0.277603
+Epoch 340 Train loss: 0.365574
+Epoch 340 Validation loss: 0.260053
+Epoch 341 Train loss: 0.370958
+Epoch 341 Validation loss: 0.267070
+Epoch 342 Train loss: 0.368235
+Epoch 342 Validation loss: 0.287589
+Epoch 343 Train loss: 0.368338
+Epoch 343 Validation loss: 0.230465
+Epoch 344 Train loss: 0.428793
+Epoch 344 Validation loss: 0.264333
+Epoch 345 Train loss: 0.383055
+Epoch 345 Validation loss: 0.263009
+Epoch 346 Train loss: 0.378583
+Epoch 346 Validation loss: 0.299324
+Epoch 347 Train loss: 0.369425
+Epoch 347 Validation loss: 0.250437
+Epoch 348 Train loss: 0.361323
+Epoch 348 Validation loss: 0.295024
+Epoch 349 Train loss: 0.379339
+Epoch 349 Validation loss: 0.265436
+Epoch 350 Train loss: 0.364004
+Epoch 350 Validation loss: 0.270235
+Epoch 351 Train loss: 0.399513
+Epoch 351 Validation loss: 0.282096
+Epoch 352 Train loss: 0.348783
+Epoch 352 Validation loss: 0.242980
+Epoch 353 Train loss: 0.364630
+Epoch 353 Validation loss: 0.265284
+Epoch 354 Train loss: 0.383566
+Epoch 354 Validation loss: 0.278303
+Epoch 355 Train loss: 0.367578
+Epoch 355 Validation loss: 0.265844
+Epoch 356 Train loss: 0.392681
+Epoch 356 Validation loss: 0.247548
+Epoch 357 Train loss: 0.366295
+Epoch 357 Validation loss: 0.248722
+Epoch 358 Train loss: 0.383277
+Epoch 358 Validation loss: 0.264658
+Epoch 359 Train loss: 0.391974
+Epoch 359 Validation loss: 0.000000
+Epoch 360 Train loss: 0.386017
+Epoch 360 Validation loss: 0.296618
+Epoch 361 Train loss: 0.368482
+Epoch 361 Validation loss: 0.259207
+Epoch 362 Train loss: 0.371115
+Epoch 362 Validation loss: 0.269539
+Epoch 363 Train loss: 0.370114
+Epoch 363 Validation loss: 0.263282
+Epoch 364 Train loss: 0.342248
+Epoch 364 Validation loss: 0.286752
+Epoch 365 Train loss: 0.366418
+Epoch 365 Validation loss: 0.274738
+Epoch 366 Train loss: 0.352165
+Epoch 366 Validation loss: 0.267633
+Epoch 367 Train loss: 0.366191
+Epoch 367 Validation loss: 0.264359
+Epoch 368 Train loss: 0.356381
+Epoch 368 Validation loss: 0.226645
+Epoch 369 Train loss: 0.370767
+Epoch 369 Validation loss: 0.268753
+Epoch 370 Train loss: 0.349291
+Epoch 370 Validation loss: 0.262137
+Epoch 371 Train loss: 0.371272
+Epoch 371 Validation loss: 0.263585
+Epoch 372 Train loss: 0.369065
+Epoch 372 Validation loss: 0.258261
+Epoch 373 Train loss: 0.376789
+Epoch 373 Validation loss: 0.230012
+Epoch 374 Train loss: 0.379615
+Epoch 374 Validation loss: 0.271939
+Epoch 375 Train loss: 0.351483
+Epoch 375 Validation loss: 0.248346
+Epoch 376 Train loss: 0.356927
+Epoch 376 Validation loss: 0.263988
+Epoch 377 Train loss: 0.272851
+Epoch 377 Validation loss: 0.262004
+Epoch 378 Train loss: 0.359939
+Epoch 378 Validation loss: 0.264980
+Epoch 379 Train loss: 0.353106
+Epoch 379 Validation loss: 0.265459
+Epoch 380 Train loss: 0.398734
+Epoch 380 Validation loss: 0.259644
+Epoch 381 Train loss: 0.366056
+Epoch 381 Validation loss: 0.229802
+Epoch 382 Train loss: 0.353440
+Epoch 382 Validation loss: 0.272233
+Epoch 383 Train loss: 0.387152
+Epoch 383 Validation loss: 0.247486
+Epoch 384 Train loss: 0.356058
+Epoch 384 Validation loss: 0.260155
+Epoch 385 Train loss: 0.370246
+Epoch 385 Validation loss: 0.263122
+Epoch 386 Train loss: 0.388007
+Epoch 386 Validation loss: 0.260140
+Epoch 387 Train loss: 0.371160
+Epoch 387 Validation loss: 0.267408
+Epoch 388 Train loss: 0.367142
+Epoch 388 Validation loss: 0.263349
+Epoch 389 Train loss: 0.374298
+Epoch 389 Validation loss: 0.262585
+Epoch 390 Train loss: 0.331678
+Epoch 390 Validation loss: 0.253998
+Epoch 391 Train loss: 0.358232
+Epoch 391 Validation loss: 0.261076
+Epoch 392 Train loss: 0.357370
+Epoch 392 Validation loss: 0.270258
+Epoch 393 Train loss: 0.350982
+Epoch 393 Validation loss: 0.259810
+Epoch 394 Train loss: 0.366657
+Epoch 394 Validation loss: 0.221370
+Epoch 395 Train loss: 0.343850
+Epoch 395 Validation loss: 0.278194
+Epoch 396 Train loss: 0.355920
+Epoch 396 Validation loss: 0.248177
+Epoch 397 Train loss: 0.358991
+Epoch 397 Validation loss: 0.268308
+Epoch 398 Train loss: 0.367605
+Epoch 398 Validation loss: 0.262559
+Epoch 399 Train loss: 0.337762
+Epoch 399 Validation loss: 0.272506
+Epoch 400 Train loss: 0.350372
+Epoch 400 Validation loss: 0.259192
+Epoch 401 Train loss: 0.363724
+Epoch 401 Validation loss: 0.260929
+Epoch 402 Train loss: 0.346814
+Epoch 402 Validation loss: 0.257980
+Epoch 403 Train loss: 0.278673
+Epoch 403 Validation loss: 0.258082
+Epoch 404 Train loss: 0.353343
+Epoch 404 Validation loss: 0.265482
+Epoch 405 Train loss: 0.331217
+Epoch 405 Validation loss: 0.260133
+Epoch 406 Train loss: 0.342313
+Epoch 406 Validation loss: 0.262203
+Epoch 407 Train loss: 0.339366
+Epoch 407 Validation loss: 0.298021
+Epoch 408 Train loss: 0.402597
+Epoch 408 Validation loss: 0.253857
+Epoch 409 Train loss: 0.370899
+Epoch 409 Validation loss: 0.276143
+Epoch 410 Train loss: 0.336954
+Epoch 410 Validation loss: 0.261594
+Epoch 411 Train loss: 0.340879
+Epoch 411 Validation loss: 0.258980
+Epoch 412 Train loss: 0.335778
+Epoch 412 Validation loss: 0.230963
+Epoch 413 Train loss: 0.339846
+Epoch 413 Validation loss: 0.269583
+Epoch 414 Train loss: 0.354596
+Epoch 414 Validation loss: 0.251484
+Epoch 415 Train loss: 0.370249
+Epoch 415 Validation loss: 0.262553
+Epoch 416 Train loss: 0.000000
+Epoch 416 Validation loss: 0.283585
+Epoch 417 Train loss: 0.345938
+Epoch 417 Validation loss: 0.240050
+Epoch 418 Train loss: 0.371066
+Epoch 418 Validation loss: 0.270481
+Epoch 419 Train loss: 0.349635
+Epoch 419 Validation loss: 0.254987
+Epoch 420 Train loss: 0.362427
+Epoch 420 Validation loss: 0.243295
+Epoch 421 Train loss: 0.360695
+Epoch 421 Validation loss: 0.231570
+Epoch 422 Train loss: 0.337380
+Epoch 422 Validation loss: 0.256735
+Epoch 423 Train loss: 0.328441
+Epoch 423 Validation loss: 0.260787
+Epoch 424 Train loss: 0.360339
+Epoch 424 Validation loss: 0.260032
+Epoch 425 Train loss: 0.389950
+Epoch 425 Validation loss: 0.228981
+Epoch 426 Train loss: 0.354490
+Epoch 426 Validation loss: 0.266007
+Epoch 427 Train loss: 0.327726
+Epoch 427 Validation loss: 0.251706
+Epoch 428 Train loss: 0.343121
+Epoch 428 Validation loss: 0.264326
+Epoch 429 Train loss: 0.352562
+Epoch 429 Validation loss: 0.294064
+Epoch 430 Train loss: 0.336189
+Epoch 430 Validation loss: 0.258435
+Epoch 431 Train loss: 0.351373
+Epoch 431 Validation loss: 0.265112
+Epoch 432 Train loss: 0.334231
+Epoch 432 Validation loss: 0.277002
+Epoch 433 Train loss: 0.318102
+Epoch 433 Validation loss: 0.332535
+Epoch 434 Train loss: 0.357829
+Epoch 434 Validation loss: 0.222240
+Epoch 435 Train loss: 0.346537
+Epoch 435 Validation loss: 0.285295
+Epoch 436 Train loss: 0.318425
+Epoch 436 Validation loss: 0.262063
+Epoch 437 Train loss: 0.340826
+Epoch 437 Validation loss: 0.257882
+Epoch 438 Train loss: 0.341811
+Epoch 438 Validation loss: 0.244817
+Epoch 439 Train loss: 0.341544
+Epoch 439 Validation loss: 0.243155
+Epoch 440 Train loss: 0.349147
+Epoch 440 Validation loss: 0.259050
+Epoch 441 Train loss: 0.355599
+Epoch 441 Validation loss: 0.264811
+Epoch 442 Train loss: 0.324993
+Epoch 442 Validation loss: 0.199949
+Epoch 443 Train loss: 0.338422
+Epoch 443 Validation loss: 0.239453
+Epoch 444 Train loss: 0.362041
+Epoch 444 Validation loss: 0.255990
+Epoch 445 Train loss: 0.323569
+Epoch 445 Validation loss: 0.253227
+Epoch 446 Train loss: 0.340328
+Epoch 446 Validation loss: 0.179776
+Epoch 447 Train loss: 0.360079
+Epoch 447 Validation loss: 0.260423
+Epoch 448 Train loss: 0.339799
+Epoch 448 Validation loss: 0.269257
+Epoch 449 Train loss: 0.330817
+Epoch 449 Validation loss: 0.260554
+Epoch 450 Train loss: 0.325378
+Epoch 450 Validation loss: 0.255740
+Epoch 451 Train loss: 0.278778
+Epoch 451 Validation loss: 0.237642
+Epoch 452 Train loss: 0.333466
+Epoch 452 Validation loss: 0.247873
+Epoch 453 Train loss: 0.328101
+Epoch 453 Validation loss: 0.246971
+Epoch 454 Train loss: 0.332878
+Epoch 454 Validation loss: 0.248499
+Epoch 455 Train loss: 0.329629
+Epoch 455 Validation loss: 0.224687
+Epoch 456 Train loss: 0.329950
+Epoch 456 Validation loss: 0.248734
+Epoch 457 Train loss: 0.364914
+Epoch 457 Validation loss: 0.247152
+Epoch 458 Train loss: 0.311665
+Epoch 458 Validation loss: 0.264330
+Epoch 459 Train loss: 0.345700
+Epoch 459 Validation loss: 0.000000
+Epoch 460 Train loss: 0.323244
+Epoch 460 Validation loss: 0.290417
+Epoch 461 Train loss: 0.305520
+Epoch 461 Validation loss: 0.251241
+Epoch 462 Train loss: 0.310071
+Epoch 462 Validation loss: 0.266646
+Epoch 463 Train loss: 0.323335
+Epoch 463 Validation loss: 0.257585
+Epoch 464 Train loss: 0.299290
+Epoch 464 Validation loss: 0.246570
+Epoch 465 Train loss: 0.314116
+Epoch 465 Validation loss: 0.267538
+Epoch 466 Train loss: 0.304703
+Epoch 466 Validation loss: 0.262630
+Epoch 467 Train loss: 0.318596
+Epoch 467 Validation loss: 0.267991
+Epoch 468 Train loss: 0.313956
+Epoch 468 Validation loss: 0.268315
+Epoch 469 Train loss: 0.311093
+Epoch 469 Validation loss: 0.235223
+Epoch 470 Train loss: 0.323544
+Epoch 470 Validation loss: 0.253272
+Epoch 471 Train loss: 0.324105
+Epoch 471 Validation loss: 0.254392
+Epoch 472 Train loss: 0.320796
+Epoch 472 Validation loss: 0.255580
+Epoch 473 Train loss: 0.311258
+Epoch 473 Validation loss: 0.261225
+Epoch 474 Train loss: 0.298649
+Epoch 474 Validation loss: 0.266234
+Epoch 475 Train loss: 0.312090
+Epoch 475 Validation loss: 0.250605
+Epoch 476 Train loss: 0.329793
+Epoch 476 Validation loss: 0.262058
+Epoch 477 Train loss: 0.319557
+Epoch 477 Validation loss: 0.267522
+Epoch 478 Train loss: 0.308318
+Epoch 478 Validation loss: 0.256906
+Epoch 479 Train loss: 0.299115
+Epoch 479 Validation loss: 0.256709
+Epoch 480 Train loss: 0.306490
+Epoch 480 Validation loss: 0.259756
+Epoch 481 Train loss: 0.319038
+Epoch 481 Validation loss: 0.284252
+Epoch 482 Train loss: 0.309597
+Epoch 482 Validation loss: 0.260482
+Epoch 483 Train loss: 0.310787
+Epoch 483 Validation loss: 0.232889
+Epoch 484 Train loss: 0.321236
+Epoch 484 Validation loss: 0.254972
+Epoch 485 Train loss: 0.331136
+Epoch 485 Validation loss: 0.261570
+Epoch 486 Train loss: 0.305824
+Epoch 486 Validation loss: 0.238076
+Epoch 487 Train loss: 0.311410
+Epoch 487 Validation loss: 0.247468
+Epoch 488 Train loss: 0.310188
+Epoch 488 Validation loss: 0.253864
+Epoch 489 Train loss: 0.301502
+Epoch 489 Validation loss: 0.251454
+Epoch 490 Train loss: 0.269551
+Epoch 490 Validation loss: 0.261651
+Epoch 491 Train loss: 0.304575
+Epoch 491 Validation loss: 0.244104
+Epoch 492 Train loss: 0.308963
+Epoch 492 Validation loss: 0.237784
+Epoch 493 Train loss: 0.307872
+Epoch 493 Validation loss: 0.254935
+Epoch 494 Train loss: 0.319115
+Epoch 494 Validation loss: 0.207386
+Epoch 495 Train loss: 0.305525
+Epoch 495 Validation loss: 0.245438
+Epoch 496 Train loss: 0.293137
+Epoch 496 Validation loss: 0.253008
+Epoch 497 Train loss: 0.304320
+Epoch 497 Validation loss: 0.259103
+Epoch 498 Train loss: 0.307669
+Epoch 498 Validation loss: 0.252520
+Epoch 499 Train loss: 0.274130
+Epoch 499 Validation loss: 0.261272
+Epoch 500 Train loss: 0.295641
+Epoch 500 Validation loss: 0.238050
+Epoch 501 Train loss: 0.293914
+Epoch 501 Validation loss: 0.254509
+Epoch 502 Train loss: 0.314994
+Epoch 502 Validation loss: 0.260832
+Epoch 503 Train loss: 0.276314
+Epoch 503 Validation loss: 0.240631
+Epoch 504 Train loss: 0.319077
+Epoch 504 Validation loss: 0.255748
+Epoch 505 Train loss: 0.299752
+Epoch 505 Validation loss: 0.254285
+Epoch 506 Train loss: 0.314301
+Epoch 506 Validation loss: 0.261184
+Epoch 507 Train loss: 0.302580
+Epoch 507 Validation loss: 0.231061
+Epoch 508 Train loss: 0.305527
+Epoch 508 Validation loss: 0.271650
+Epoch 509 Train loss: 0.298696
+Epoch 509 Validation loss: 0.244333
+Epoch 510 Train loss: 0.297695
+Epoch 510 Validation loss: 0.263026
+Epoch 511 Train loss: 0.295017
+Epoch 511 Validation loss: 0.251008
+Epoch 512 Train loss: 0.236203
+Epoch 512 Validation loss: 0.202781
+Epoch 513 Train loss: 0.320360
+Epoch 513 Validation loss: 0.264382
+Epoch 514 Train loss: 0.321393
+Epoch 514 Validation loss: 0.242897
+Epoch 515 Train loss: 0.323951
+Epoch 515 Validation loss: 0.263002
+Epoch 516 Train loss: 0.000000
+Epoch 516 Validation loss: 0.228325
+Epoch 517 Train loss: 0.324750
+Epoch 517 Validation loss: 0.302615
+Epoch 518 Train loss: 0.297767
+Epoch 518 Validation loss: 0.243924
+Epoch 519 Train loss: 0.293242
+Epoch 519 Validation loss: 0.261538
+Epoch 520 Train loss: 0.290893
+Epoch 520 Validation loss: 0.164070
+Epoch 521 Train loss: 0.326995
+Epoch 521 Validation loss: 0.258205
+Epoch 522 Train loss: 0.292189
+Epoch 522 Validation loss: 0.261739
+Epoch 523 Train loss: 0.298966
+Epoch 523 Validation loss: 0.260434
+Epoch 524 Train loss: 0.284929
+Epoch 524 Validation loss: 0.251344
+Imported matplotlib.pyplot as plt
+computed_metrics: [1.0]
+RF Train set AUC 1.000000
+computed_metrics: [0.734864359762241]
+RF Valid set AUC 0.734864
+computed_metrics: [0.9785312614381261]
+RF Tmp set AUC 0.978531
+computed_metrics: [0.9424390243902439]
+DNN Train set AUC 0.942439
+computed_metrics: [0.9424390243902439]
+computed_metrics: [0.848780487804878]
+computed_metrics: [0.8731707317073171]
+computed_metrics: [0.7472310244734217]
+DNN Training ROC-AUC Scores: 0.942439
+DNN Training Recall Scores: 0.848780
+DNN Training Precision: 0.873171
+DNN Training MCC: 0.747231
+DNN Training F1 Scores: 0.860803
+computed_metrics: [0.8572819356005812]
+DNN Valid set AUC 0.857282
+computed_metrics: [0.8572819356005812]
+computed_metrics: [0.41280353200883]
+computed_metrics: [0.9052035033487893]
+computed_metrics: [0.4685101460704322]
+DNN Validation ROC-AUC Scores: 0.857282
+DNN Validation Recall Scores: 0.412804
+DNN Validation Precision: 0.905204
+DNN Validation MCC: 0.468510
+DNN Validation F1 Scores: 0.567025
+computed_metrics: [0.917712042059029]
+DNN Tmp set AUC 0.917712
+computed_metrics: [0.917712042059029]
+computed_metrics: [0.848780487804878]
+computed_metrics: [0.822262118491921]
+computed_metrics: [0.49708659075463674]
+DNN Tmp ROC-AUC Scores: 0.917712
+DNN Tmp Recall Scores: 0.848780
+DNN Tmp Precision: 0.822262
+DNN Tmp MCC: 0.497087
+DNN Tmp F1 Scores: 0.835311
