@@ -1,5 +1,8 @@
 # ML
 
+Code and jupyter notebooks to run analysis and classification as in paper García-Sosa A. T.* "Androgen Receptor Binding Category Prediction with Deep Neural Networks and Structure-, Ligand-, and Statistically-Based Features" Molecules 2021, 26:1285 (https://www.mdpi.com/1420-3049/26/5/1285/htm), or file 
+
+
 my_py_scriptMoreMetrics.py contains Random Forest and Deep Neural Network classifiers and regressors on the CoMPARA set of androgen receptor (AR) toxicity compounds using my own features. It runs using environment file deepch.yml. First create a conda environment with:
 
 conda env create -f deepch.yml
