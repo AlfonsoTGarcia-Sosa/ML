@@ -41,4 +41,4 @@ balanced_GraphConv*scores.ipynb contain Graph Convolutional Network classifiers 
 
 The latest version of the notebooks have also text comments
 
-roc_hum_dud.png, roc_chimp_dud.png, roc_rat_dud.png are ROC-AUC curves for Human, Chimp, and Rat AR docking with DUD-E created decoys. Respectively, AUC values are 0.80, 0.83, and 0.74. Enrichement factor EF(1%) for Chimp AR = 68.92
+roc_hum_dud.png, roc_chimp_dud.png, roc_rat_dud.png are ROC-AUC curves for Human, Chimp, and Rat AR docking with DUD-E created decoys. Respectively, AUC values are 0.80, 0.83, and 0.74. Enrichment factor EF(1%) for Chimp AR = 68.92
